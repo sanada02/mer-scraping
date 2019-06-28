@@ -86,4 +86,5 @@ except:
 
 df.to_csv("{}.csv".format(query), index=False, encoding="utf_8_sig")
 browser.close()
+browser.quit()
 print("Done!")
