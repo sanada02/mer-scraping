@@ -85,6 +85,5 @@ except:
     print("Error occurred! Process cancelled but the added items will be exported to .csv")
 
 df.to_csv("{}.csv".format(query), index=False, encoding="utf_8_sig")
-browser.close()
 browser.quit()
 print("Done!")
